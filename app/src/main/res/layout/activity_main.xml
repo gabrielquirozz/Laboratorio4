@@ -31,7 +31,9 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.056" />
+            app:layout_constraintVertical_bias="0.056"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="14dp" />
 
         <TextView
             android:id="@+id/hidden_text"
@@ -75,7 +77,8 @@
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             app:layout_constraintBaseline_toBaselineOf="@+id/name_text"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="32dp" />
 
         <ImageView
             android:id="@+id/star"
@@ -91,7 +94,7 @@
 
         <Button
             android:id="@+id/Tikal"
-            style="@style/button_style"
+            style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
@@ -104,7 +107,7 @@
 
         <Button
             android:id="@+id/Atitlan"
-            style="@style/button_style"
+            style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Atitlan"
@@ -117,7 +120,7 @@
 
         <Button
             android:id="@+id/Antigua"
-            style="@style/button_style"
+            style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Antigua"
@@ -150,7 +153,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/roboto"
-                android:text="@string/guatemala_text"
+                android:text="GUATEMALA, CORAZÓN DEL MUNDO MAYA Viva, mágica, mística y ancestral. Su historia se remonta a cuatro mil años, cuando emergió la civilización maya, cuyo legado perdura hoy en día con las tradiciones y cultura de su gente. Guatemala es un país de extraordinaria riqueza cultural y natural y con una ubicación geográfica privilegiada. Las distancias de lugar a lugar son cortas, lo que permite visitar varias regiones en un mismo viaje. Es un país único, de aventura, inolvidable, entre su pasado y presente, además de la diversidad de actividades que ofrece al visitante. Conocido como el país de la eterna primavera, goza de un clima agradable que permite visitarlo en cualquier época del año. Además, ofrece varias posibilidades de acceso desde cualquier parte del mundo, contando con dos aeropuertos internacionales: La Aurora, situado en la ciudad capital; y Mundo Maya, ubicado en el departamento de Petén."
                 android:textSize="18sp" />
         </ScrollView>
 
