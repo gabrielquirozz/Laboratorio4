@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <style name="sub_title_text">
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:fontFamily">@font/roboto_black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
