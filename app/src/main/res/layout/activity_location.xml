@@ -86,7 +86,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/comment_text"
         app:layout_constraintEnd_toStartOf="@+id/comment_text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/comment_text" />
+        app:layout_constraintTop_toTopOf="@+id/comment_text"
+        tools:ignore="RtlCompat" />
 
     <EditText
         android:id="@+id/comment_text"
@@ -103,6 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.139"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        tools:ignore="RtlCompat" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
